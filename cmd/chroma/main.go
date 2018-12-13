@@ -63,7 +63,7 @@ command, for Go.
 		HTMLBaseLine              int    `help:"Base line number." default:"1"`
 		HTMLPreventSurroundingPre bool   `help:"Prevent the surrounding pre tag."`
 
-		Files []string `arg:"" help:"Files to highlight." type:"existingfile"`
+		Files []string `arg:"" optional help:"Files to highlight." type:"existingfile"`
 	}
 )
 
